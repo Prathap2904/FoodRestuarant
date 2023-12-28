@@ -1,0 +1,42 @@
+.nav-link{
+    cursor: pointer;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    
+    transition:width 2s;
+    
+    
+}
+.container-fluid{
+    justify-content: center;
+    justify-items: center;
+}
+.nav-item{
+    padding-left: 100px;
+}
+#p1{
+    width: 25vw;
+    height:25vw
+}
+.grid-container{
+    display: grid;
+    display: -moz-inline-grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: aliceblue;
+    transition: width 2s;
+    
+}
+#menu{
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 1000;
+}

@@ -1,0 +1,14 @@
+div{
+    
+    align-content: center;
+    justify-content: center;
+    padding:30px;
+    grid-template-columns: auto;
+    transition: width 2s;
+}
+img{
+    justify-content: center;
+    width: 25vw;
+    height: auto;
+    
+}
